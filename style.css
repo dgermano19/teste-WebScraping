@@ -1,0 +1,58 @@
+:root{
+    --dark: #222;
+    --middle:#aaa;
+    --midLight: #eee;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    padding: 1em;
+}
+/* Main Section */
+#mainSection{
+    max-width: 90%;
+    margin: 1em auto;
+}
+
+/* MAIN FORM */
+#searchBar{
+    margin: 0.5em 0;
+    width: 80%;
+    padding: 0.5em;
+    border-bottom: 1px solid var(--middle);
+}
+
+
+/* Main Table */
+#mainTbl{
+    border-collapse: collapse;
+
+}
+
+#mainTbl td{
+    border: 1px solid var(--dark);    
+    padding: 0.5em;
+}
+
+p{
+    font-size: 70%;
+}
+/* Color Attribution */
+.tone-dark{
+    padding: 0.5em;
+    background-color: var(--dark);
+    color: var(--midLight);
+}
+.tone-middle{
+    padding: 0.5em;
+    background-color: var(--middle);
+    color: var(--dark);
+}
